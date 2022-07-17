@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    padding: 40px 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7f4f24;
+
+        .logo {
+            color: wheat;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .nav {
+            .ul {
+                display: flex;
+                gap: 30px;
+
+                    li {
+                        list-style: none;
+
+                            a {
+                                text-decoration: none;
+                                font-size: 20px;
+                                color: wheat;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
+                            }
+                    }
+            }
+        }
+}

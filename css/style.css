@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  background-color: #ddb892;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.showcase__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase__header .nav .ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.showcase__header .nav .ul li a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 20px;
+}
+.showcase__header .nav .ul li a:hover {
+  text-decoration: underline;
+}
+.showcase__logo {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: wheat;
+}
+.showcase__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+}
+.showcase__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #d4a373;
+  mix-blend-mode: overlay;
+}
+.showcase__text {
+  position: relative;
+  z-index: 10;
+}
+.showcase__text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+}
+.showcase__text p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+}
+.showcase__text a {
+  display: inline-block;
+  font-size: 1em;
+  background-color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #111;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.showcase__text a:hover {
+  transform: scale(1.3);
+  transition: 1s;
+}
+.showcase .social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  padding: 40px 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #7f4f24;
+}
+.header .logo {
+  color: wheat;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header .nav .ul {
+  display: flex;
+  gap: 30px;
+}
+.header .nav .ul li {
+  list-style: none;
+}
+.header .nav .ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: wheat;
+}
+.header .nav .ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
